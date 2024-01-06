@@ -99,6 +99,7 @@ function ale_contact_email_send($data) {
         $admin_email = get_option('admin_email');
         $message_label = esc_html__('Message','ale');
         $email_label = esc_html__('Email','ale');
+        $phone_label = esc_html__('Phone','ale');
         $name_lable = esc_html__('Name','ale');
         $sent_from = esc_html__('Sent from','ale').get_bloginfo('name');
 
@@ -109,6 +110,8 @@ function ale_contact_email_send($data) {
 			{$name_lable}: {$data['name']}
 
 			{$email_label}: {$data['email']}
+
+			{$phone_label}: {$data['phone']}
 
 			{$message_label}: {$data['message']}
 
