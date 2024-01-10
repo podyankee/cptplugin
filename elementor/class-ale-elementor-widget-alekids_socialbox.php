@@ -181,7 +181,15 @@ class Ale_Elementor_Widget_Alekids_Socialbox extends \Elementor\Widget_Base {
 			<?php } ?>
 		</div>
 		<div class="text_holder">
-			<?php if($settings['title']){ ?><h6><?php echo esc_html($settings['title']); ?></h6><?php } ?>
+			<?php if(!empty($settings['link']['url'])){ ?>
+			<a href="<?php echo esc_url($settings['link']['url']); ?>" <?php if(isset($settings['link']['is_external'])) {echo 'target="'.($settings['link']['is_external'] ? '_blank' : '_self').'"';} if(isset($settings['link']['nofollow'])){echo 'rel="'.($settings['link']['nofollow'] ? 'nofollow' : '').'"';} ?>>
+				<?php if($settings['title']){ ?><h6><?php echo esc_html($settings['title']); ?></h6><?php } ?>
+			</a>
+			<?php }
+				else {
+					if($settings['title']){ ?><h6><?php echo esc_html($settings['title']); ?></h6><?php }
+				}
+			?>
 			<?php if($settings['description']){ ?><p><?php echo esc_html($settings['description']); ?></p><?php } ?>
 		</div>
 	</div>
