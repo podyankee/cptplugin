@@ -38,7 +38,7 @@ class Ale_Elementor_Widget_Alekids_Counter extends \Elementor\Widget_Base {
 			'fields' => [
 			  [
 					'field' => 'title',
-					'type' => $this->get_title() .'<br />'. esc_html__( "Text on Button", "alekids" ),
+					'type' => $this->get_title() .'<br />'. esc_html__( "Counter Title", "alekids" ),
 					'editor_type' => 'LINE'
 			  ],
 			],
@@ -175,6 +175,9 @@ class Ale_Elementor_Widget_Alekids_Counter extends \Elementor\Widget_Base {
 
 	protected function render() {
 
+		wp_enqueue_script('alekids-appear');
+		wp_enqueue_script('alekids-counter');
+
 		$settings = $this->get_settings_for_display();
 
 		?>
@@ -190,7 +193,7 @@ class Ale_Elementor_Widget_Alekids_Counter extends \Elementor\Widget_Base {
 			} ?>
 	</div>
 	<?php if($settings['title']){ ?><span class="font_one alekids_text_color"><?php echo esc_html($settings['title']); ?></span><?php } ?>
-	<?php if($settings['number']){ ?><span class="font_one alekids_number_color"><?php echo esc_html($settings['number']); ?></span><?php } ?>
+	<?php if($settings['number']){ ?><span class="font_one alekids_number alekids_number_color"><?php echo esc_html($settings['number']); ?></span><?php } ?>
 </div>
 <?php  
 

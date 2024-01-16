@@ -116,6 +116,7 @@ class Ale_Elementor
 			'alekids_socialbox',
 			'alekids_video',
 			'alekids_counter',
+			'alekids_timeline',
 		];
 
 		foreach( $widgets as $widget ){
