@@ -7,7 +7,7 @@ class Ale_Elementor_Widget_Alekids_Testimonials extends \Elementor\Widget_Base {
 
   public function get_script_depends() {
 		if ( \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
-			wp_register_script( 'alekids_testimonials',ALE_PLUGIN_URL. '/elementor/js/widget-alekids-testimonials.js', [ 'elementor-frontend' ], '1.0', true );
+			wp_register_script( 'alekids_testimonials',ALE_PLUGIN_URL. '/elementor/js/widget-alekids-testimonials.js', [ 'elementor-frontend', 'jquery-slick' ], '1.0', true );
 			return [ 'alekids_testimonials' ];
 		}
 

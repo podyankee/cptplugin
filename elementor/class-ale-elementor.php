@@ -117,6 +117,7 @@ class Ale_Elementor
 			'alekids_video',
 			'alekids_counter',
 			'alekids_timeline',
+			'alekids_team',
 		];
 
 		foreach( $widgets as $widget ){
