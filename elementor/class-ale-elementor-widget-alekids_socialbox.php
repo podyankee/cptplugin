@@ -97,6 +97,7 @@ class Ale_Elementor_Widget_Alekids_Socialbox extends \Elementor\Widget_Base {
 			[
 				'label' => esc_html__( "Social Title", "ale" ),
 				'type' => \Elementor\Controls_Manager::TEXT,
+				'default' => esc_html__('Title Example', 'ale')
 			]
         );
 
@@ -105,6 +106,8 @@ class Ale_Elementor_Widget_Alekids_Socialbox extends \Elementor\Widget_Base {
 			[
 				'label' => esc_html__( "Social Description", "ale" ),
 				'type' => \Elementor\Controls_Manager::TEXT,
+				'default' => esc_html__('Description Example', 'ale')
+
 			]
         );
 
@@ -145,12 +148,33 @@ class Ale_Elementor_Widget_Alekids_Socialbox extends \Elementor\Widget_Base {
 		);
 
 				$this->add_control(
+			'title_color',
+			[
+				'label' => esc_html__( 'Title Color', 'ale' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .alekids_socialbox h6' => 'color: {{VALUE}}',
+				],
+			]
+		);
+
+				$this->add_control(
 			'text_color',
 			[
 				'label' => esc_html__( 'Text Color', 'ale' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .alekids_socialbox' => 'color: {{VALUE}}',
+				],
+			]
+		);
+
+				$this->add_control(
+			'stroke_color',
+			[
+				'label' => esc_html__( 'Stroke Color', 'ale' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
 					'{{WRAPPER}} .alekids_socialbox .alekids_dashed' => 'stroke: {{VALUE}}',
 				],
 			]
