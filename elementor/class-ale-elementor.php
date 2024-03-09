@@ -102,6 +102,7 @@ class Ale_Elementor
 	public function init_widgets() {
 
 		$widgets = [
+			'alekids_shop',
 			'alekids_top_screen',
 			'alekids_step',
 			'alekids_title',
@@ -118,6 +119,7 @@ class Ale_Elementor
 			'alekids_counter',
 			'alekids_timeline',
 			'alekids_team',
+			
 		];
 
 		foreach( $widgets as $widget ){

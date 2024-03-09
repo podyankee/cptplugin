@@ -41,13 +41,13 @@ class Aletheme_Blog_Widget extends WP_Widget
 		$number = $instance['number'];
 
 		/* Before widget (defined by themes). */
-		echo ale_wp_kses($before_widget);
+		echo wp_kses_post($before_widget);
 
 		// Display Widget
 		?>
 <?php /* Display the widget title if one was input (before and after defined by themes). */
 				if ( $title )
-					echo ale_wp_kses($before_title) . esc_attr($title) . ale_wp_kses($after_title);
+					echo wp_kses_post($before_title) . esc_attr($title) . wp_kses_post($after_title);
 				?>
 <div class="alekids-blog-widget">
 
@@ -72,7 +72,7 @@ class Aletheme_Blog_Widget extends WP_Widget
 <?php
 
 		/* After widget (defined by themes). */
-		echo ale_wp_kses($after_widget);
+		echo wp_kses_post($after_widget);
 	}
 
 	/**
