@@ -1,0 +1,389 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1709952335813,
+    "data": [
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "file",
+            "name": "contact.php",
+            "size": 3018,
+            "hash": "ad1b0e836373d8e828f7477b6482af0d08c4ee74af7f813fb6a2c8f67d7497f0"
+        },
+        {
+            "type": "file",
+            "name": "cpt-alekids.php",
+            "size": 9159,
+            "hash": "b726376a6302096a3363c4fff78089026c425b9c63c73694883ed179e694bc78"
+        },
+        {
+            "type": "folder",
+            "name": "elementor"
+        },
+        {
+            "type": "folder",
+            "name": "elementor1"
+        },
+        {
+            "type": "folder",
+            "name": "inc"
+        },
+        {
+            "type": "folder",
+            "name": "metaboxes"
+        },
+        {
+            "type": "file",
+            "name": "social.php",
+            "size": 3649,
+            "hash": "4092fd4de95f904078d3c4c95ae938ba9818e787de7805251a12e89a6ff6cee7"
+        },
+        {
+            "type": "folder",
+            "name": "widgets"
+        },
+        {
+            "type": "folder",
+            "name": "assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/js"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-helper.php",
+            "size": 350,
+            "hash": "a33db895761b5dc7f0ae0cf997a1b9b5ef4a00247f32846f7951d1c6676ffaf2"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids-contact_icon.php",
+            "size": 12457,
+            "hash": "4097fbe122d863f6854a630defae12adaec6bd211a6df738d02bc89119695e47"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_bloglist.php",
+            "size": 5952,
+            "hash": "2c0950f3681bd5e74cc22e3f9fd0a47fcc84d4b6aa5f34c4d73b6ce53c57bcde"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_button.php",
+            "size": 4320,
+            "hash": "779df3af183cf82f15c26ef5280955620de247b4fa0c64824e564e73c4690646"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_counter.php",
+            "size": 4301,
+            "hash": "bd62c2b1e1245794945887c6ac5f9ffefca28d90d41f5cecc914d8e2f90b7ed8"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_form.php",
+            "size": 5881,
+            "hash": "bc4cb37e6979d50ccac6a78092ecc2eca33d8ff8eef05ae697c3436a891bd774"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_gallerylist.php",
+            "size": 4645,
+            "hash": "af9939721818473f3477f5846970707e4f193396a82938c1f25d926aef8892b5"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_images_grid.php",
+            "size": 7328,
+            "hash": "def02fe84bd8a1bfa3f2b3fc2c7a6b1a93477f7d5d72ad89923759b057a0aac9"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_shop.php",
+            "size": 2348,
+            "hash": "23cd1620525f7916095283da5a2e8a3187e888cb726135a6dd8ef82a6027fad0"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_single-image.php",
+            "size": 2077,
+            "hash": "6b53bafe35408a9ee56f6704a88f40e5fff0afb58dd18e60e59b6306c926bb1e"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_socialbox.php",
+            "size": 5177,
+            "hash": "6520965bb65dc6bb55be0e1ad85c12da38d0cad9e3aa0df547b53530fe20ade5"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_step.php",
+            "size": 4742,
+            "hash": "082e0aece1c43f69e8f21b8805ce333dbdb08669b046ad59ecd5b5edb62249c9"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_team.php",
+            "size": 8479,
+            "hash": "ad693778e29ae9634e3e444fb4e3d362ab7f2ad088e9e3151aed8a9e15b2c8f6"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_testimonials.php",
+            "size": 4706,
+            "hash": "812371585b82c3d5dc8585d28466530624d1aa3e20c9405b6da85fa8ed7de06e"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_timeline.php",
+            "size": 4794,
+            "hash": "c718d2195f286e9683d5e6edfa27442474e6913a68a747adb01682c4e8e9a1bc"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_title.php",
+            "size": 3702,
+            "hash": "7c5b71624655c6e0a5ec63c407a9a07900348fcbb6ca760437f58bf01ae1dab2"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_top_screen.php",
+            "size": 4959,
+            "hash": "146ee758e62c534948dd3f550530dc27c08199974c280be3ec94eaab3ec5bd39"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor-widget-alekids_video.php",
+            "size": 2131,
+            "hash": "a08443a6af46129eeafb8ecf7cb24bba1085411214acd7103cef202da2f74ea7"
+        },
+        {
+            "type": "file",
+            "name": "elementor/class-ale-elementor.php",
+            "size": 3155,
+            "hash": "d932d1886f29c6ac9433b01bcb97c4503199a58a0eeb87f866c692eabb20e03c"
+        },
+        {
+            "type": "folder",
+            "name": "elementor/js"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-helper.php",
+            "size": 352,
+            "hash": "82f01439d1cb63e88b9a73d78661181f8f330be948bd146d7976ca71d5025555"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids-contact_icon.php",
+            "size": 12457,
+            "hash": "4097fbe122d863f6854a630defae12adaec6bd211a6df738d02bc89119695e47"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_bloglist.php",
+            "size": 5952,
+            "hash": "2c0950f3681bd5e74cc22e3f9fd0a47fcc84d4b6aa5f34c4d73b6ce53c57bcde"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_button.php",
+            "size": 4320,
+            "hash": "779df3af183cf82f15c26ef5280955620de247b4fa0c64824e564e73c4690646"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_gallerylist.php",
+            "size": 4644,
+            "hash": "21ba785d2e79feab8b4883add4032f2972bf2abed60aab509fa75c5c9842fc5d"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_images_grid.php",
+            "size": 7328,
+            "hash": "def02fe84bd8a1bfa3f2b3fc2c7a6b1a93477f7d5d72ad89923759b057a0aac9"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_single-image.php",
+            "size": 2077,
+            "hash": "6b53bafe35408a9ee56f6704a88f40e5fff0afb58dd18e60e59b6306c926bb1e"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_step.php",
+            "size": 4742,
+            "hash": "082e0aece1c43f69e8f21b8805ce333dbdb08669b046ad59ecd5b5edb62249c9"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_testimonials.php",
+            "size": 4690,
+            "hash": "fdeee53590c657d195094c67ad927caea46645fa645b1ab4f1f57732df788fe6"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_title.php",
+            "size": 3702,
+            "hash": "7c5b71624655c6e0a5ec63c407a9a07900348fcbb6ca760437f58bf01ae1dab2"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor-widget-alekids_top_screen.php",
+            "size": 4959,
+            "hash": "146ee758e62c534948dd3f550530dc27c08199974c280be3ec94eaab3ec5bd39"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/class-ale-elementor.php",
+            "size": 3005,
+            "hash": "f552faec6b9c178b7418c63aa15ae666cc6f9c11161d8f5884acaa77e3e36433"
+        },
+        {
+            "type": "folder",
+            "name": "elementor1/js"
+        },
+        {
+            "type": "file",
+            "name": "inc/AleInit.php",
+            "size": 8892,
+            "hash": "26ec287250c0dced7c1a38be2229818540b7896bda2f0885d54db7295b56ddce"
+        },
+        {
+            "type": "file",
+            "name": "inc/AleBase.php",
+            "size": 22798,
+            "hash": "9588155f48289a3f1c1e7d5aa0d5f3a828195a5924147115e3e21f8029ece13b"
+        },
+        {
+            "type": "file",
+            "name": "metaboxes/gallery-meta.php",
+            "size": 2166,
+            "hash": "9c2d01ce37b22fce962aa3ca85ceee59cd9dfe9906d83f81de52cbb11b15c264"
+        },
+        {
+            "type": "file",
+            "name": "metaboxes/meta-init.php",
+            "size": 3038,
+            "hash": "a64f3cff532d4d7899a3ce396122da2e46db6dadba3ef9ebbc6eac999aaac601"
+        },
+        {
+            "type": "file",
+            "name": "metaboxes/metaboxes.php",
+            "size": 24351,
+            "hash": "63382ca0d582b8a7bd143c56deb5d66d66f58496843c7ecf141b4b6768ff7653"
+        },
+        {
+            "type": "file",
+            "name": "widgets/widget-blog.php",
+            "size": 3320,
+            "hash": "39582440500b67d7a48e08d03096a1c676454d0acff236757f20dc00ce068b45"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/_lic_style.css",
+            "size": 1536,
+            "hash": "6bff4dc95a500d0129bb2a608c3c8b00741d1aca34742a5d8093b59f02e2d722"
+        },
+        {
+            "type": "file",
+            "name": "assets/js/meta.js",
+            "size": 2508,
+            "hash": "437088b80d106ac61a717a967a1bb0a6ac8bbb4cc5d4953e718407bfba6ce237"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-button_elementor.js",
+            "size": 938,
+            "hash": "4009591ba67e8149224e4eccc8cd2abd63090eff48326ed1ebabf1346e436334"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-counter_elementor.js",
+            "size": 5190,
+            "hash": "5b27ebe236e6e5dcf3798036d0556b3ced7f429b13efc823befdac947e369991"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-images_grid.js",
+            "size": 946,
+            "hash": "de39cff1153fc7b7078e3d75f516102e825e8cb491d40eede70ae20e4ade1f34"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-shop_elementor.js",
+            "size": 703,
+            "hash": "9123a6c7bdcd1702a0fa7bb0a93282dad8ede771150cf8c83e0c98b418b2f8d9"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-single_image.js",
+            "size": 940,
+            "hash": "d52cd8eeefcb838e85a37b13f183aeee638ee3f08cff8754396626d19c52d368"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-socialbox_elementor.js",
+            "size": 937,
+            "hash": "b51409eabcb96bf5bc705e3f02351e1a78fe5c21a98267cbac4106df62125bff"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-team.js",
+            "size": 481,
+            "hash": "96eb0b1f1691c17a162e00caa3840ed8de5d0bed2f9faf7709a5a2e343def515"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-testimonials.js",
+            "size": 67399,
+            "hash": "c3e789317c2b0ff03d3b766ebcaa27b651d47ab36c040063fb8cbe73093402f0"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-timeline.js",
+            "size": 525,
+            "hash": "e8b43a0d56859632722726109c66c5f04b37be79f5eb36fae9d87c87bd65bc1c"
+        },
+        {
+            "type": "file",
+            "name": "elementor/js/widget-alekids-top-screen_elementor.js",
+            "size": 938,
+            "hash": "4009591ba67e8149224e4eccc8cd2abd63090eff48326ed1ebabf1346e436334"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/js/widget-alekids-button_elementor.js",
+            "size": 938,
+            "hash": "4009591ba67e8149224e4eccc8cd2abd63090eff48326ed1ebabf1346e436334"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/js/widget-alekids-images_grid.js",
+            "size": 946,
+            "hash": "de39cff1153fc7b7078e3d75f516102e825e8cb491d40eede70ae20e4ade1f34"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/js/widget-alekids-single_image.js",
+            "size": 940,
+            "hash": "d52cd8eeefcb838e85a37b13f183aeee638ee3f08cff8754396626d19c52d368"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/js/widget-alekids-testimonials.js",
+            "size": 67399,
+            "hash": "c3e789317c2b0ff03d3b766ebcaa27b651d47ab36c040063fb8cbe73093402f0"
+        },
+        {
+            "type": "file",
+            "name": "elementor1/js/widget-alekids-top-screen_elementor.js",
+            "size": 938,
+            "hash": "4009591ba67e8149224e4eccc8cd2abd63090eff48326ed1ebabf1346e436334"
+        }
+    ]
+}
